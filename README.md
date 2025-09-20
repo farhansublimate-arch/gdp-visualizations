@@ -1,16 +1,30 @@
-# GDP Visualization
+# GDP Visualization (2020–2025)
 
-Visualisasi GDP dunia (2020–2025) dengan GIF, chart klasik top/bottom 5, dan peta interaktif.
+Visualisasi GDP dunia dengan GIF animasi, chart klasik top/bottom 5, dan peta interaktif.
 
-## GIF animasi
+---
+
+## 🌍 GIF Animasi Peta Dunia
 ![Peta Dunia](outputs/gdp_world.gif)
 
-## Top 5 GDP & Bottom 5 GDP
+---
+
+## 📊 Top 5 & Bottom 5 GDP
 ![Top 5 GDP](outputs/top5_gdp_charts/top5_gdp.png)
 ![Bottom 5 GDP](outputs/top5_gdp_charts/worst5_gdp.png)
 
-## Interaktif HTML
+---
+
+## 🖥 Interaktif HTML
 [Klik di sini untuk visualisasi peta dunia interaktif](https://farhansublimate-arch.github.io/gdp-visualizations/)
+
+---
+
+## ⚙️ Cara Menjalankan Script
+```bash
+cd src
+python Main.py
+
 
 
 ---
