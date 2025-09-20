@@ -3,12 +3,8 @@
 [![Python](https://img.shields.io/badge/python-3.13+-blue?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-Visualisasi GDP dunia dari 2020–2025, lengkap dengan:  
-- Peta interaktif HTML yang bisa di-zoom dan di-hover
-- GIF animasi peta dunia 
-- Chart klasik Top 5 & Bottom 5 GDP
-
-Project ini menunjukkan kemampuan **data cleaning, transformasi, visualisasi interaktif, dan insight analisis**.
+Deskripsi Proyek
+Proyek ini menampilkan tren GDP negara-negara dunia selama 2020–2025 menggunakan animasi, peta interaktif, dan chart Top/Bottom 5. Tujuannya adalah untuk memberikan gambaran cepat tentang pertumbuhan ekonomi global, serta insight yang actionable bagi analisis ekonomi atau bisnis.
 
 
 ---
@@ -36,28 +32,33 @@ Project ini menunjukkan kemampuan **data cleaning, transformasi, visualisasi int
 ## Key Insights:
 1. GDP dunia meningkat setiap tahun, menunjukkan pemulihan ekonomi global.
 2. Amerika dan China tetap dominan, tapi pertumbuhan tercepat ada di beberapa negara Asia.
-3. Perbedaan regional masih signifikan; Afrika dan beberapa negara berkembang memiliki pertumbuhan yang lambat.
-4. Visualisasi interaktif mempermudah melihat perbandingan antar negara dan tren tahunan.
+3. Perbedaan regional masih signifikan, Afrika dan beberapa negara berkembang memiliki pertumbuhan yang lambat.
+4. Beberapa negara menunjukkan pertumbuhan stabil meskipun terjadi fluktuasi global.
+5. Negara dengan GDP terbesar tidak selalu mengalami pertumbuhan tercepat
+6. Visualisasi interaktif mempermudah melihat perbandingan antar negara dan tren tahunan.
 
+
+
+Teknologi yang Digunakan
 ---
+- Python
+- Pandas
+- Matplotlib
+- Plotly
+- ImageIO
 
-
-## Instalasi & Requirement
-
-Clone repo:
+  
+## Cara Menjalankan
 ---
-- git clone https://github.com/farhansublimate-arch/gdp-visualizations.git
-- cd gdp_visualization/src
+1. Clone repositori:
+git clone https://github.com/farhansublimate-arch/gdp-visualizations.git
 
+2. Install dependencies:
+pip install -r requirements.txt
 
-Install requirements:
----
-- python -m pip install -r requirements.txt
+3. Jalankan Script:
+python gdp_visualization.py
 
-
-Jalankan script:
----
-- python Main.py
 
 
 Requirement:
@@ -72,12 +73,6 @@ Catatan:
 - Folder outputs/ bisa dimasukkan .gitignore agar repo tetap ringan
 - CSV bisa diupdate kapan saja → jalankan Main.py → visualisasi baru otomatis dibuat
 
-
-Insight Tambahan:
----
-- Dengan GIF dan peta interaktif, tren GDP dunia lebih mudah diamati dari tahun ke tahun
-- Top/Bottom chart membantu memahami disparitas ekonomi antar negara secara cepat
-- Visualisasi ini siap dipakai untuk analisis data ekonomi, presentasi, atau laporan interaktif
 
 
 ## ⚙️ Cara Menjalankan Script
