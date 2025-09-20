@@ -45,35 +45,41 @@ Project ini menunjukkan kemampuan **data cleaning, transformasi, visualisasi int
 ## Instalasi & Requirement
 
 Clone repo:
+---
 - git clone https://github.com/farhansublimate-arch/gdp-visualizations.git
 - cd gdp_visualization/src
 
----
+
 Install requirements:
+---
 - python -m pip install -r requirements.txt
 
----
+
 Jalankan script:
+---
 - python Main.py
 
----
+
 Requirement:
+---
 - Python 3.13+
 - Pandas, Plotly, Matplotlib, ImageIO, Kaleido, Numpy
 
----
+
 Catatan:
+---
 - Output GIF/PNG/HTML tidak perlu commit → di-generate otomatis dari CSV
 - Folder outputs/ bisa dimasukkan .gitignore agar repo tetap ringan
 - CSV bisa diupdate kapan saja → jalankan Main.py → visualisasi baru otomatis dibuat
 
----
+
 Insight Tambahan:
+---
 - Dengan GIF dan peta interaktif, tren GDP dunia lebih mudah diamati dari tahun ke tahun
 - Top/Bottom chart membantu memahami disparitas ekonomi antar negara secara cepat
 - Visualisasi ini siap dipakai untuk analisis data ekonomi, presentasi, atau laporan interaktif
 
----
+
 ## ⚙️ Cara Menjalankan Script
 ```bash
 cd src
