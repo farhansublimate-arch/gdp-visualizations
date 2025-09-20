@@ -48,12 +48,10 @@ gdp_visualization/
 
 ---
 
-```bash
 
 ## Cara Pakai
 
 1. Clone repo:
-
 git clone https://github.com/farhansublimate-arch/gdp-visualization.git
 cd gdp_visualization/src
 
@@ -63,15 +61,16 @@ python -m pip install -r requirements.txt
 3.Jalankan Main.py:
 python Main.py
 
-**Semua GIF dan chart interaktif otomatis dibuat di folder outputs**
+Semua GIF dan chart interaktif otomatis dibuat di folder outputs
 
-## Requirement
+```bash
 
+Requirement:
 Python 3.13+
 Pandas, Plotly, Matplotlib, ImageIO, Kaleido, Numpy
 
 
-## Catatan
+Catatan:
 -Output GIF / PNG tidak perlu commit → generate otomatis dari CSV
 -Folder outputs/ bisa dimasukkan ke .gitignore agar repo ringan
 -Bisa update data CSV kapan saja → jalankan Main.py → visualisasi baru otomatis dibuat
