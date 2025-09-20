@@ -73,10 +73,10 @@ for year in years:
     plt.close()
     images_bottom.append(imageio.imread(temp_bottom))
 
-# Buat GIF, durasi 3 detik per frame
+# Buat GIF
 gif_top5_path = os.path.join(output_top5, "top5_gdp.gif")
 gif_bottom5_path = os.path.join(output_top5, "bottom5_gdp.gif")
-imageio.mimsave(gif_top5_path, images_top, duration=3)
+imageio.mimsave(gif_top5_path, images_top, duration=30)
 imageio.mimsave(gif_bottom5_path, images_bottom, duration=3)
 print(f"GIF Top/Bottom 5 GDP tersimpan di: {output_top5}")
 
