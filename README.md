@@ -10,7 +10,7 @@ Visualisasi GDP dunia dari 2020–2025, lengkap dengan:
 
 ---
 
-## 🌍 GIF Animasi Peta Dunia
+## GIF Animasi Peta Dunia
 ![Peta Dunia](https://farhansublimate-arch.github.io/gdp-visualizations/outputs/gdp_world_map.gif)
 
 > GIF menampilkan perkembangan GDP tiap tahun secara visual di seluruh dunia.  
