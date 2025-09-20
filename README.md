@@ -48,10 +48,12 @@ gdp_visualization/
 
 ---
 
+```bash
+
 ## Cara Pakai
 
 1. Clone repo:
-```bash
+
 git clone https://github.com/farhansublimate-arch/gdp-visualization.git
 cd gdp_visualization/src
 
