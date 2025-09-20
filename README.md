@@ -6,7 +6,9 @@
 Visualisasi GDP dunia dari 2020–2025, lengkap dengan:  
 - Peta interaktif HTML yang bisa di-zoom dan di-hover
 - GIF animasi peta dunia 
-- Chart klasik Top 5 & Bottom 5 GDP   
+- Chart klasik Top 5 & Bottom 5 GDP
+
+Project ini menunjukkan kemampuan **data cleaning, transformasi, visualisasi interaktif, dan insight analisis**.
 
 
 ---
@@ -38,7 +40,7 @@ Visualisasi GDP dunia dari 2020–2025, lengkap dengan:
 
 ---
 
-
+---
 
 ## Instalasi & Requirement
 
