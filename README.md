@@ -1,50 +1,17 @@
-# GDP Visualization 2020-2025
+# GDP Visualization
 
-Visualisasi **GDP dunia per negara** dari 2020–2025 dengan **GIF animasi**, **top/bottom 5 charts**, dan **peta dunia interaktif**.  
+Visualisasi GDP dunia (2020–2025) dengan GIF, chart klasik top/bottom 5, dan peta interaktif.
 
-![GDP World GIF](outputs/gdp_world_map.gif)
+## GIF animasi
+![Peta Dunia](outputs/gdp_world.gif)
 
----
+## Top 5 GDP & Bottom 5 GDP
+![Top 5 GDP](outputs/top5_gdp_charts/top5_gdp.png)
+![Bottom 5 GDP](outputs/top5_gdp_charts/worst5_gdp.png)
 
-## Fitur
-- **Peta Dunia Interaktif (HTML)** → zoom & hover negara  
-- **GIF Peta Dunia** per tahun  
-- **Top 5 & Bottom 5 GDP** per tahun (PNG + GIF)  
-- **Otomatis update** saat data CSV baru ditambahkan  
+## Interaktif HTML
+[Klik di sini untuk visualisasi peta dunia interaktif](https://farhansublimate-arch.github.io/gdp-visualizations/)
 
----
-
-## Struktur Project
-
-gdp_visualization/
-├─ data/
-├─ outputs/
-│ ├─ gdp_world_interaktif.html
-│ ├─ gdp_world_map.gif
-│ └─ top5_gdp_charts/
-├─ src/
-│ ├─ Main.py 
-│ ├─ data_loader.py 
-│ └─ plots.py 
-├─ requirements.txt
-└─ README.md
-
-
----
-
-##  GIF & HTML Interaktif
-
-**GIF Peta Dunia:**  
-![GDP World GIF](outputs/gdp_world_map.gif)
-
-**Top 5 GDP GIF:**  
-![Top 5 GDP](outputs/top5_gdp_charts/top5_gdp.gif)
-
-**Bottom 5 GDP GIF:**  
-![Bottom 5 GDP](outputs/top5_gdp_charts/bottom5_gdp.gif)
-
-**HTML Interaktif:** buka di browser:  
-[GDP World Interaktif](outputs/gdp_world_interaktif.html)
 
 ---
 
