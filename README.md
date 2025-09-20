@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Deskripsi Proyek
+---
 Proyek ini menampilkan tren GDP negara-negara dunia selama 2020–2025 menggunakan animasi, peta interaktif, dan chart Top/Bottom 5. Tujuannya adalah untuk memberikan gambaran cepat tentang pertumbuhan ekonomi global, serta insight yang actionable bagi analisis ekonomi atau bisnis.
 
 
