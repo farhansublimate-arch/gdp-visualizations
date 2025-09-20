@@ -4,9 +4,9 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Visualisasi GDP dunia dari 2020–2025, lengkap dengan:  
-- GIF animasi peta dunia 🌍  
-- Chart klasik Top 5 & Bottom 5 GDP 📊  
-- Peta interaktif HTML yang bisa di-zoom dan di-hover 🖥  
+- GIF animasi peta dunia 
+- Chart klasik Top 5 & Bottom 5 GDP   
+- Peta interaktif HTML yang bisa di-zoom dan di-hover 
 
 ---
 
