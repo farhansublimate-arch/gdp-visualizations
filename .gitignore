@@ -1,0 +1,14 @@
+outputs/
+
+*.pyc
+__pycache__/
+
+*.tmp
+*.log
+*.swp
+
+.DS_Store        # MacOS
+Thumbs.db        # Windows
+
+venv/
+env/
