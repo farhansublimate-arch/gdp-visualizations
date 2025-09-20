@@ -1,4 +1,4 @@
-# 🌐 GDP Visualization (2020–2025)
+# GDP Visualization (2020–2025)
 
 [![Python](https://img.shields.io/badge/python-3.13+-blue?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -27,7 +27,7 @@ Visualisasi GDP dunia dari 2020–2025, lengkap dengan:
 
 ---
 
-## 📊 Top 5 & Bottom 5 GDP
+## Top 5 & Bottom 5 GDP
 ![Top 5 GDP](https://farhansublimate-arch.github.io/gdp-visualizations/outputs/top5_gdp_charts/top5_gdp.gif)
 ![Bottom 5 GDP](https://farhansublimate-arch.github.io/gdp-visualizations/outputs/top5_gdp_charts/bottom5_gdp.gif)
 
