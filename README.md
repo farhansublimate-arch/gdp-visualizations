@@ -1,60 +1,70 @@
-# GDP Visualization (2020–2025)
+# 🌐 GDP Visualization (2020–2025)
 
-Visualisasi GDP dunia dengan GIF animasi, chart klasik top/bottom 5, dan peta interaktif.
+[![Python](https://img.shields.io/badge/python-3.13+-blue?logo=python)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+Visualisasi GDP dunia dari 2020–2025, lengkap dengan:  
+- GIF animasi peta dunia 🌍  
+- Chart klasik Top 5 & Bottom 5 GDP 📊  
+- Peta interaktif HTML yang bisa di-zoom dan di-hover 🖥  
 
 ---
 
 ## 🌍 GIF Animasi Peta Dunia
-![Peta Dunia](outputs/gdp_world.gif)
+![Peta Dunia](https://farhansublimate-arch.github.io/gdp-visualizations/outputs/gdp_world_map.gif)
+
+> GIF menampilkan perkembangan GDP tiap tahun secara visual di seluruh dunia.  
+> Memudahkan melihat tren ekonomi global secara cepat.
 
 ---
 
 ## 📊 Top 5 & Bottom 5 GDP
-![Top 5 GDP](outputs/top5_gdp_charts/top5_gdp.png)
-![Bottom 5 GDP](outputs/top5_gdp_charts/worst5_gdp.png)
+![Top 5 GDP](https://farhansublimate-arch.github.io/gdp-visualizations/outputs/top5_gdp_charts/top5_gdp.gif)
+![Bottom 5 GDP](https://farhansublimate-arch.github.io/gdp-visualizations/outputs/top5_gdp_charts/bottom5_gdp.gif)
+
+> **Insight:**  
+> - **Top 5 GDP** biasanya didominasi negara dengan ekonomi besar seperti: USA, China, Jepang, Jerman, India  
+> - **Bottom 5 GDP** menunjukkan negara dengan ekonomi kecil atau berkembang lambat  
+> - Chart membantu melihat disparitas ekonomi antar negara secara instan  
 
 ---
 
-## 🖥 Interaktif HTML
-[Klik di sini untuk visualisasi peta dunia interaktif](https://farhansublimate-arch.github.io/gdp-visualizations/)
+## 🖥 Peta Interaktif HTML
+[Klik di sini untuk visualisasi peta dunia interaktif](https://farhansublimate-arch.github.io/gdp-visualizations/outputs/gdp_world_interaktif.html)
 
----
-
-## ⚙️ Cara Menjalankan Script
-```bash
-cd src
-python Main.py
-
-
+> HTML interaktif memungkinkan zoom, hover, dan melihat nilai GDP tiap negara.
 
 ---
 
 
-## Cara Pakai
 
-1. Clone repo:
-git clone https://github.com/farhansublimate-arch/gdp-visualization.git
+## Instalasi & Requirement
+
+Clone repo:
+git clone https://github.com/farhansublimate-arch/gdp-visualizations.git
 cd gdp_visualization/src
 
-2. Install requirements:
+Install requirements:
 python -m pip install -r requirements.txt
 
-3.Jalankan Main.py:
+Jalankan script:
 python Main.py
-
-Semua GIF dan chart interaktif otomatis dibuat di folder outputs
-
-```bash
 
 Requirement:
 Python 3.13+
 Pandas, Plotly, Matplotlib, ImageIO, Kaleido, Numpy
 
-
 Catatan:
--Output GIF / PNG tidak perlu commit → generate otomatis dari CSV
--Folder outputs/ bisa dimasukkan ke .gitignore agar repo ringan
--Bisa update data CSV kapan saja → jalankan Main.py → visualisasi baru otomatis dibuat
+-Output GIF/PNG/HTML tidak perlu commit → di-generate otomatis dari CSV
+-Folder outputs/ bisa dimasukkan .gitignore agar repo tetap ringan
+-CSV bisa diupdate kapan saja → jalankan Main.py → visualisasi baru otomatis dibuat
 
+Insight Tambahan:
+-Dengan GIF dan peta interaktif, tren GDP dunia lebih mudah diamati dari tahun ke tahun
+-Top/Bottom chart membantu memahami disparitas ekonomi antar negara secara cepat
+-Visualisasi ini siap dipakai untuk analisis data ekonomi, presentasi, atau laporan interaktif
 
-
+## ⚙️ Cara Menjalankan Script
+```bash
+cd src
+python Main.py
