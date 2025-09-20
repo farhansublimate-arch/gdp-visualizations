@@ -4,9 +4,18 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Visualisasi GDP dunia dari 2020–2025, lengkap dengan:  
+- Peta interaktif HTML yang bisa di-zoom dan di-hover
 - GIF animasi peta dunia 
 - Chart klasik Top 5 & Bottom 5 GDP   
-- Peta interaktif HTML yang bisa di-zoom dan di-hover 
+
+
+---
+
+## 🖥 Peta Interaktif HTML
+[Klik di sini untuk visualisasi peta dunia interaktif](https://farhansublimate-arch.github.io/gdp-visualizations/outputs/gdp_world_interaktif.html)
+
+> HTML interaktif memungkinkan zoom, hover, dan melihat nilai GDP tiap negara.
+
 
 ---
 
@@ -26,13 +35,6 @@ Visualisasi GDP dunia dari 2020–2025, lengkap dengan:
 > - **Top 5 GDP** biasanya didominasi negara dengan ekonomi besar seperti: USA, China, Jepang, Jerman, India  
 > - **Bottom 5 GDP** menunjukkan negara dengan ekonomi kecil atau berkembang lambat  
 > - Chart membantu melihat disparitas ekonomi antar negara secara instan  
-
----
-
-## 🖥 Peta Interaktif HTML
-[Klik di sini untuk visualisasi peta dunia interaktif](https://farhansublimate-arch.github.io/gdp-visualizations/outputs/gdp_world_interaktif.html)
-
-> HTML interaktif memungkinkan zoom, hover, dan melihat nilai GDP tiap negara.
 
 ---
 
